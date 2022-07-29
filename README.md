@@ -15,7 +15,7 @@ Project generated with very_good_cli
 
 Objective: practicing BLoC, following the tutorial project in https://bloclibrary.dev/#/flutterlogintutorial
 
-This project has no personalizations from mercz85
+This project has no personalizations by mercz85
 
 ---
 ## Getting Started 🚀
