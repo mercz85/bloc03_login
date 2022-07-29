@@ -5,9 +5,16 @@
 // license that can be found in the LICENSE file or at
 // https://opensource.org/licenses/MIT.
 
+import 'package:authentication_repository/authentication_repository.dart';
 import 'package:bloc03_login/app/app.dart';
 import 'package:bloc03_login/bootstrap.dart';
+import 'package:user_repository/user_repository.dart';
 
 void main() {
-  bootstrap(() => const App());
+  bootstrap(
+    () => App(
+      authenticationRepository: AuthenticationRepository(),
+      userRepository: UserRepository(),
+    ),
+  );
 }

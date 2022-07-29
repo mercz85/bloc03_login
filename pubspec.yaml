@@ -14,7 +14,12 @@ dependencies:
   flutter_bloc: ^8.0.1
   flutter_localizations:
     sdk: flutter
+  formz: ^0.4.0
   intl: ^0.17.0
+  authentication_repository:
+    path: packages/authentication_repository
+  user_repository:
+    path: packages/user_repository
 
 dev_dependencies:
   bloc_test: ^9.0.3
