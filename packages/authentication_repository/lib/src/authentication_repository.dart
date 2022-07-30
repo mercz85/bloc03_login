@@ -8,7 +8,7 @@ class AuthenticationRepository {
 
 //https://stackoverflow.com/questions/55397023/whats-the-difference-between-async-and-async-in-dart
   Stream<AuthenticationStatus> get status async* {
-    await Future<Void>.delayed(const Duration(seconds: 1));
+    await Future<void>.delayed(const Duration(seconds: 1));
 
     yield AuthenticationStatus.unauthenticated;
 
